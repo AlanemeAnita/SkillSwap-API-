@@ -39,4 +39,12 @@ This is my Capstone Project (Part 3).
 &nbsp;  cd SkillSwap-API
 
 
+### Endpoints
+- GET /api/posts/
+- POST /api/posts/
+- GET /api/comments/
+- POST /api/comments/
+
+
+
 
