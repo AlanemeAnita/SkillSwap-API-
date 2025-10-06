@@ -24,3 +24,12 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
+
+class Comment(models.Model):
+    post = models.ForeignKey(Post, on_delete=models.CASCADE, related_name="comments")
+    user = models.ForeignKey(UserProfile, on_delete=models.CASCADE, related_name="comments")
+    content = models.TextField()
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    def _str_(self):
+        return f"{self.user.user.username}: {self.content[:20]}"
