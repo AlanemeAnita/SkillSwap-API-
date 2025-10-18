@@ -4,6 +4,10 @@ from .models import Post, Comment
 from .models import Post
 from .serializers import PostSerializer, CommentSerializer
 from django.http import HttpResponse
+from django.http import JsonResponse
+
+def home(request):
+    return JsonResponse({"message": "Welcome to SkillSwap API — deployed successfully 🎉"})
 
 def home(request):
     return HttpResponse("Hello from Core app!")
