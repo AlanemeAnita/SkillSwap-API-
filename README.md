@@ -1,7 +1,6 @@
 \# Capstone Project — SkillSwap API
 
-This is my Capstone Project (Part 3).
-
+SkillSwap API is a Django REST Framework–based application that allows users to share, view, and manage skill-exchange posts — a platform where learners can connect and grow through knowledge sharing.
 
 
 \## Setup
@@ -39,11 +38,25 @@ This is my Capstone Project (Part 3).
 &nbsp;  cd SkillSwap-API
 
 
-### Endpoints
-- GET /api/posts/
-- POST /api/posts/
-- GET /api/comments/
-- POST /api/comments/
+🧩 Features
+User authentication using JWT (JSON Web Token)
+
+CRUD operations for posts (create, view, update, delete)
+
+RESTful API architecture using Django REST Framework
+
+Deployed to a live production environment on Render
+
+
+🗂️ API Endpoints
+
+| Method | Endpoint         | Description          |
+| :----- | :--------------- | :------------------- |
+| GET    | `/api/posts/`    | List all posts       |
+| POST   | `/api/posts/`    | Create a new post    |
+| GET    | `/api/comments/` | List all comments    |
+| POST   | `/api/comments/` | Create a new comment |
+
 
 
 ## 🌐 Live API Endpoint
