@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-mflr-u+r=ven$$(ojy6igd6oi++ca24upqrovau!^sa-sc@nct
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['skillswap-api-beyn.onrender.com']
 
 # Application definition
 

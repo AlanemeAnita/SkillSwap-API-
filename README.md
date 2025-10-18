@@ -46,5 +46,9 @@ This is my Capstone Project (Part 3).
 - POST /api/comments/
 
 
+## 🌐 Live API Endpoint
+Backend API is live and accessible here:
+
+🔗 [https://skillswap-api-beyn.onrender.com/api](https://skillswap-api-beyn.onrender.com/api)
 
 
